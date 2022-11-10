@@ -13,7 +13,7 @@ function Main() {
   <main id="main">
     {posts.map((postObject) => {
       return(
-        <Post key={postObject.postId} title={postObject.title} date={postObject.date}/>
+        <Post key={postObject.postId} title={postObject.title} date={postObject.date} author={postObject.author} text={postObject.text}/>
       )
     })}
   </main>
